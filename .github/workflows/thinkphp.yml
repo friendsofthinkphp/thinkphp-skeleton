@@ -1,4 +1,4 @@
-name: Laravel
+name: ThinkPHP
 
 on: [push]
 
