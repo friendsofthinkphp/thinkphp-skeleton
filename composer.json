@@ -7,6 +7,7 @@
         "thinkphp",
         "ORM"
     ],
+    "minimum-stability": "dev",
     "homepage": "http://thinkphp.cn/",
     "license": "Apache-2.0",
     "authors": [
