@@ -21,8 +21,8 @@
         "topthink/framework": "^6.0.0",
         "topthink/think-orm": "^2.0",
         "topthink/think-annotation": "^1.0",
-        "xiaodi/think-jwt": "dev-master",
-        "xiaodi/think-permission": "dev-master"
+        "xiaodi/think-jwt": "0.5.*",
+        "xiaodi/think-permission": "0.5.*"
     },
     "require-dev": {
         "symfony/var-dumper": "^4.2",
