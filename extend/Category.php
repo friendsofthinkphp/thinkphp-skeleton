@@ -104,4 +104,25 @@ class Category
         }
         return 0;
     }
+
+    /**
+     * 格式化 
+     *
+     * @param [type] $data
+     * @param string $child_key
+     * @param integer $pid
+     * @return void
+     */
+    public function formatTree($data, $child_key = 'child', $id = 0)
+    {
+        $child = [];
+        $field = $this->field;
+        foreach ($data as $item) {
+            if ($item[$field['pid']] == $id) {
+                $child[$item[$field['id']]] = $item;
+                $child[$item[$field['id']]][$child_key] = $this->formatTree($data, $child_key, $item[$field['id']]);
+            }
+        }
+        return $child;
+    }
 }
