@@ -3,6 +3,12 @@ ThinkPHP Skeleton
 
 > 运行环境要求PHP7.1+。
 
+### 创建项目
+
+```
+$ composer create-project xiaodi/think-skeleton
+```
+
 ### 安装
 ```sh
 $ composer i
